@@ -1,0 +1,55 @@
+h2{
+    height: 40px;
+    font-family: "Electrolize";
+}
+body {
+    font-family: "Electrolize";
+    background-color: rgb(237, 220, 253);
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url('background3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slide 10s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    
+
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+}
+h1 {
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    font-size: 100px;
+    color: #6e077c;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: navy;
+    background-image: url('moreLaughing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slide 10s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    background-size: 150%;
+
+}
