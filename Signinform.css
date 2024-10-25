@@ -1,0 +1,122 @@
+body {
+    font-family: 'Pacifico';
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: left;
+    height: 100vh;
+    align-items: left;
+    color: #000;
+}
+h1 {
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    font-size: 100px;
+    color: #6e077c;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: navy;
+
+}
+h2 {
+    font-family: Pacifico;
+    font-size: 30px;
+    color: #6e077c;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+button {
+    border-radius: 20px;
+    border: 3px solid #4e1146;
+    background-color: rgb(204, 125, 174);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+button:active {
+    transform: scale(0.95);
+    color: #ff4828;
+    background-color: whitesmoke;
+    border-color: #ff4828;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+button:ghost {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: text-decoration-thickness 200ms ease-in-out;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    transition: border-color 200ms ease-in-out;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    height: 100vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 480px;
+}
+.form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transform: all 0.6s ease-in-out;
+}
+
+.sign-in-container {
+    left: 10%;
+    width: 50%;
+    z-index: 2;
+}
+.container.right-panel-active .sign-in-container {
+    transform: translateX(100%);
+
+}
+
+.sign-up-container {
+    left: 0%;
+    width: 20%;
+    z-index: 2;
+}
+
+.container.right-panel-active .sign-up-container {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 2;
+    animation: fadeEffect 0.8s;
+}
