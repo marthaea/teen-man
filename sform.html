@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Pacifico&family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Signinform.css">
+    <title>CONTIGENCY Sign In Form</title>
+</head>
+
+<body class="body">
+    <div class ="container">
+        <div class="sign-in-container">
+            <form class="form" id="signInForm">
+                <h1 class="h1">CONTIGENCY..</h1>
+                <h2 class="h2">Sign In</h2>
+                <input type="email" placeholder="Email" class="input" required/>
+                <input type="password" placeholder="Password" class="input" required/>
+                <button type="submit" class="button" id="signInButton">Sign In</button>
+                <span>Don't have an account? <a href ="#" class ="button-ghost">Sign Up</a></span>
+            </form>
+        </div>
+    </div class="sign-up-container">
+    <form class="form" id="signUpForm">
+        <h2 class="h2">Sign Up</h2>
+        <input type="text" placeholder="Username" class="input" required/>
+        <input type="email" placeholder="Email" class="input" required/>
+        <input type="password" placeholder="Password" class="input" required/>
+        <button type="submit" class="button">Sign Up</button>
+        <span>Already have an account? <a href ="#" class ="button-ghost">Sign In</a></span>
+    </form>
+    <script>
+        document.getElementById('signInButton').addEventListener('click', function(event) {
+            event.preventDefault();
+            // Your sign in logic here
+            alert('Signing in...');
+            // Redirect to home page or whatever
+            window.location.href = 'home.html';
+        });
+    </script>
+    
+</body>
+</html>
