@@ -1,0 +1,40 @@
+body {
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Lilita+One&family=Moon+Dance&family=Noto+Color+Emoji&family=Pacifico&family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href ="home.css">
+    <title>Welcome</title>
+
+h1 {
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    font-size: 100px;
+    color: #6e077c;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: navy;
+    background-image: url('moreLaughing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slide 10s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    background-size: 150%;
+
+
+}
+container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+h2 {
+    height: 40px;
+    font-size: 30px;
+    color: #6e077c;
+
+}
